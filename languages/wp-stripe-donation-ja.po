@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Stripe Donation\n"
+"POT-Creation-Date: 2022-02-17 03:22+0600\n"
+"PO-Revision-Date: 2022-02-17 21:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../admin\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: cls-wpsd-admin.php:30 cls-wpsd-admin.php:31
+msgid "WP Stripe Donation"
+msgstr "WPストライプ寄付"
+
+#: cls-wpsd-admin.php:41 cls-wpsd-admin.php:42
+msgid "Key Settings"
+msgstr "キー設定"
+
+#: cls-wpsd-admin.php:50 cls-wpsd-admin.php:51 view/general.php:16
+msgid "General Settings"
+msgstr "一般設定"
+
+#: cls-wpsd-admin.php:59 cls-wpsd-admin.php:60 view/form.php:9
+msgid "Form Settings"
+msgstr "フォームの設定"
+
+#: cls-wpsd-admin.php:68 cls-wpsd-admin.php:69
+msgid "Donation List"
+msgstr "寄付金一覧"
+
+#: cls-wpsd-admin.php:77 cls-wpsd-admin.php:78
+msgid "Receipt Email"
+msgstr "受付メール"
+
+#: cls-wpsd-admin.php:86 cls-wpsd-admin.php:87
+msgid "Usage & Tutorial"
+msgstr "利用チュートリアル"
+
+#: cls-wpsd-admin.php:209 cls-wpsd-admin.php:227
+msgid "Amount"
+msgstr "金額"
+
+#: cls-wpsd-admin.php:210 cls-wpsd-admin.php:228
+msgid "Donation For"
+msgstr "寄付金"
+
+#: cls-wpsd-admin.php:211 cls-wpsd-admin.php:229
+msgid "Name"
+msgstr "名称"
+
+#: cls-wpsd-admin.php:212 cls-wpsd-admin.php:230
+msgid "Email"
+msgstr "メール"
+
+#: cls-wpsd-admin.php:213 cls-wpsd-admin.php:231
+msgid "Date"
+msgstr "日"
+
+#: cls-wpsd-admin.php:226
+msgid "Select All"
+msgstr "すべて選択"
+
+#: cls-wpsd-admin.php:232
+msgid "Comments"
+msgstr "コメント"
+
+#: cls-wpsd-admin.php:233
+msgid "Action"
+msgstr "行動"
+
+#: cls-wpsd-admin.php:304 cls-wpsd-admin.php:309
+msgid ""
+"\n"
+msgstr ""
+"\n"
+
+#: view/form.php:21
+msgid "Content"
+msgstr "コンテンツ"
+
+#: view/form.php:22
+msgid "Styles"
+msgstr "スタイル"
+
+#: view/general.php:34
+msgid "Donation Admin Email"
+msgstr "寄付管理者メール"
+
+#: view/general.php:40
+msgid "Donation notification will send to this email"
+msgstr "寄付の通知を送付しますメール"
+
+#: view/general.php:45
+msgid "Disable Admin Email"
+msgstr "無効有効管理者メール"
+
+#: view/general.php:51 view/partial/form-content.php:210
+#: view/receipt-email.php:71 view/receipt-email.php:92
+#: view/receipt-email.php:114
+msgid "Please Upgrade Now!"
+msgstr "アップグレードを行ってください。"
+
+#: view/general.php:66
+msgid "Form Title"
+msgstr "形名"
+
+#: view/general.php:75
+msgid "Form Description"
+msgstr "形態の説明"
+
+#: view/general.php:84
+msgid "Donation For Options"
+msgstr "寄付金のためのオプション"
+
+#: view/general.php:90
+msgid "Use comma \",\" separated values like: Option-1, Option-2"
+msgstr "利用にカンマ\",\"分離などの価値：オプション-1、オプション-2"
+
+#: view/general.php:95
+msgid "Amounts"
+msgstr "金額"
+
+#: view/general.php:101
+msgid "Use comma \",\" separated values like: 100,150,200"
+msgstr "利用にカンマ\",\"分離などの価値:100,150,200"
+
+#: view/general.php:106
+msgid "Form Button Text"
+msgstr "形のボタンのテキスト"
+
+#: view/general.php:115
+msgid "Currency"
+msgstr "通貨"
+
+#: view/general.php:134
+msgid "Success Page"
+msgstr "成功のページ"
+
+#: view/general.php:140 view/general.php:174 view/partial/form-content.php:111
+#: view/partial/form-content.php:132 view/partial/form-content.php:153
+#: view/partial/form-content.php:173 view/partial/form-content.php:232
+#: view/partial/form-content.php:256 view/partial/form-content.php:280
+#: view/partial/form-content.php:304 view/partial/form-styles.php:32
+#: view/partial/form-styles.php:53 view/partial/form-styles.php:74
+#: view/partial/form-styles.php:95 view/partial/form-styles.php:123
+#: view/partial/form-styles.php:144 view/partial/form-styles.php:170
+#: view/partial/form-styles.php:191 view/partial/form-styles.php:212
+#: view/partial/form-styles.php:233 view/partial/form-styles.php:261
+#: view/partial/form-styles.php:282 view/partial/form-styles.php:303
+#: view/partial/form-styles.php:329 view/partial/form-styles.php:350
+msgid "Upgrade to Professional!"
+msgstr "プです。"
+
+#: view/general.php:149
+msgid ""
+"Enter the slug of your page where it will be redirected after successful "
+"payment."
+msgstr "入力のスラグのページをすることができるリダイレクト成功後に、お金を払います。"
+
+#: view/general.php:157
+msgid "Exclude Stripe SDK"
+msgstr "を除くストライプSDK"
+
+#: view/general.php:163
+msgid ""
+"Check this if you have other stripe plugins activated. This will avoid "
+"conflict."
+msgstr "この場合その他のストライププラグインを起動します。 このことは避ける。"
+
+#: view/general.php:168
+msgid "Disable Idempotency Key Checking"
+msgstr "Disable Idempotencyキーチェック"
+
+#: view/partial/form-content.php:18
+msgid "Template Color"
+msgstr "テンプレート色"
+
+#: view/partial/form-content.php:34
+msgid "Display Banner"
+msgstr "バナーを表示"
+
+#: view/partial/form-content.php:42
+msgid "Banner"
+msgstr "バナー"
+
+#: view/partial/form-content.php:60
+msgid "Donate/Payment For Label"
+msgstr "寄付支払いのためのラベル"
+
+#: view/partial/form-content.php:69
+msgid "Name Label"
+msgstr "名ラベル"
+
+#: view/partial/form-content.php:78
+msgid "Email Label"
+msgstr "メールラベル"
+
+#: view/partial/form-content.php:87
+msgid "Amount Label"
+msgstr "量ラベル"
+
+#: view/partial/form-content.php:96
+msgid "Card Element Label"
+msgstr "カードラベル要素"
+
+#: view/partial/form-content.php:105
+msgid "Comments Label"
+msgstr "コメントラベル"
+
+#: view/partial/form-content.php:126
+msgid "Captcha Label"
+msgstr "画像認証ラベル"
+
+#: view/partial/form-content.php:147
+msgid "Show Comments Field"
+msgstr "ショーのコメント分野"
+
+#: view/partial/form-content.php:167
+msgid "Show Captcha Field"
+msgstr "ショー画像認証の分野"
+
+#: view/partial/form-content.php:187
+msgid "Hide All Form Label"
+msgstr "非表示になっていラベル"
+
+#: view/partial/form-content.php:195
+msgid "Other Amount Text"
+msgstr "その他の金額をテキスト"
+
+#: view/partial/form-content.php:204
+msgid "Hide Donation For"
+msgstr "非表示のための寄付"
+
+#: view/partial/form-content.php:218
+msgid ""
+"If you hide this, please make sure you must have only one donation for "
+"available in general settings."
+msgstr "ま隠こていただくようお願いいだけの寄付により一般設定します。"
+
+#: view/partial/form-content.php:226
+msgid "Form Width"
+msgstr "フォームの幅"
+
+#: view/partial/form-content.php:250
+msgid "Form Header Type"
+msgstr "形ヘッダータイプ"
+
+#: view/partial/form-content.php:263
+msgid "tdb"
+msgstr "帝国データバンク/"
+
+#: view/partial/form-content.php:263
+msgid "Title-Description-Banner"
+msgstr "タイトル-説明-バナー"
+
+#: view/partial/form-content.php:264
+msgid "btd"
+msgstr "btd"
+
+#: view/partial/form-content.php:264
+msgid "Banner-Title-Description"
+msgstr "バナータイトル-説明"
+
+#: view/partial/form-content.php:265
+msgid "tbd"
+msgstr "未定"
+
+#: view/partial/form-content.php:265
+msgid "Title-Banner-Description"
+msgstr "タイトル-バナー-説明"
+
+#: view/partial/form-content.php:274
+msgid "Form Button Width"
+msgstr "形のボタン幅"
+
+#: view/partial/form-content.php:298
+msgid "Display Total Donation Today"
+msgstr "表示計の寄付を日"
+
+#: view/partial/form-content.php:318 view/partial/form-styles.php:364
+#: view/receipt-email.php:130 view/wpsd-key-settings.php:55
+msgid "Save Settings"
+msgstr "保存設定"
+
+#: view/partial/form-styles.php:21
+msgid "Form Container"
+msgstr "形コンテナ"
+
+#: view/partial/form-styles.php:26 view/partial/form-styles.php:164
+msgid "Border Width"
+msgstr "ボーダー幅"
+
+#: view/partial/form-styles.php:39 view/partial/form-styles.php:81
+#: view/partial/form-styles.php:109 view/partial/form-styles.php:177
+#: view/partial/form-styles.php:219 view/partial/form-styles.php:247
+#: view/partial/form-styles.php:310
+msgid "px"
+msgstr "px"
+
+#: view/partial/form-styles.php:47 view/partial/form-styles.php:185
+msgid "Border Color"
+msgstr "ボーダーの色"
+
+#: view/partial/form-styles.php:68 view/partial/form-styles.php:206
+msgid "Border Radius"
+msgstr "ボーダーの半径"
+
+#: view/partial/form-styles.php:89 view/partial/form-styles.php:227
+msgid "Padding"
+msgstr "パディング"
+
+#: view/partial/form-styles.php:102 view/partial/form-styles.php:240
+msgid "top"
+msgstr "トップ"
+
+#: view/partial/form-styles.php:104 view/partial/form-styles.php:242
+msgid "right"
+msgstr "右"
+
+#: view/partial/form-styles.php:106 view/partial/form-styles.php:244
+msgid "bottom"
+msgstr "底"
+
+#: view/partial/form-styles.php:108 view/partial/form-styles.php:246
+msgid "left"
+msgstr "左"
+
+#: view/partial/form-styles.php:117 view/partial/form-styles.php:255
+#: view/partial/form-styles.php:323
+msgid "Background Color"
+msgstr "背景色"
+
+#: view/partial/form-styles.php:138 view/partial/form-styles.php:276
+#: view/partial/form-styles.php:344
+msgid "Font Color"
+msgstr "フォント色"
+
+#: view/partial/form-styles.php:159
+msgid "Input Fields"
+msgstr "入力分野"
+
+#: view/partial/form-styles.php:297
+msgid "Font Size"
+msgstr "文字サイズ"
+
+#: view/partial/form-styles.php:318
+msgid "Button"
+msgstr "ボタン"
+
+#: view/receipt-email.php:18
+msgid "Receipt Email Settings"
+msgstr "受付メール設定"
+
+#: view/receipt-email.php:35
+msgid "Subject"
+msgstr "対象"
+
+#: view/receipt-email.php:40
+msgid "We received your payment"
+msgstr "またお支払い"
+
+#: view/receipt-email.php:45
+msgid "Heading"
+msgstr "見出し"
+
+#: view/receipt-email.php:50
+msgid "Thanks for your payment!"
+msgstr "おります。"
+
+#: view/receipt-email.php:55
+msgid "Footnote"
+msgstr "脚注"
+
+#: view/receipt-email.php:60
+msgid "If you have any question, please reply this email."
+msgstr "ご質問ご返信くださいこ送いたします。"
+
+#: view/receipt-email.php:65
+msgid "Disable Receipt Email"
+msgstr "無効有効受付メール"
+
+#: view/receipt-email.php:86
+msgid "From Name"
+msgstr "から名"
+
+#: view/receipt-email.php:100
+msgid "Receipt Email Header From Name"
+msgstr "受付メールヘッダ名"
+
+#: view/receipt-email.php:108
+msgid "From Email"
+msgstr "からメール"
+
+#: view/receipt-email.php:122
+msgid "webmaster@yourdomain.com"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:28 view/wpsd-all-donations.php:9
+msgid "Donations Information"
+msgstr "寄付金情報"
+
+#: view/wpsd-all-donations-pro.php:44
+msgid "BULK ACTION"
+msgstr "バルク行動"
+
+#: view/wpsd-all-donations-pro.php:45
+msgid "Delete"
+msgstr "削除"
+
+#: view/wpsd-all-donations-pro.php:47
+msgid "Apply"
+msgstr "適用"
+
+#: view/wpsd-all-donations-pro.php:70
+msgid "DELETE"
+msgstr "削除"
+
+#: view/wpsd-all-donations-pro.php:91
+msgid "EXPORT TO CSV"
+msgstr "輸出をCSV"
+
+#: view/wpsd-key-settings.php:20
+msgid "Stripe Key Settings"
+msgstr "ストライプキー設定"
+
+#: view/wpsd-key-settings.php:35
+msgid "Publishable Key"
+msgstr "出版のキー"
+
+#: view/wpsd-key-settings.php:45
+msgid "Secret Key"
+msgstr "秘密鍵"
+
+#: view/wpsd-key-settings.php:58
+msgid "Where to Find Stripe Keys"
+msgstr "スプリントストライプキー"

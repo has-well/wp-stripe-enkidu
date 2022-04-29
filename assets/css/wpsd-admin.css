@@ -1,0 +1,341 @@
+table.wpsd-form-content-settings {
+    width: 100%;
+}
+
+table.wpsd-form-style-settings tr th,
+table.wpsd-form-style-settings tr td,
+table.wpsd-form-content-settings tr th,
+table.wpsd-form-content-settings tr td {
+    border: 0px solid #000;
+    padding: 12px 10px;
+    text-align: left;
+    background-color: #EAEAEA;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+table.wpsd-form-content-settings tr th {
+    max-width: 100px;
+    text-align: right;
+}
+
+table.wpsd-form-style-settings tr th label,
+table.wpsd-form-content-settings tr th label {
+    font-weight: 600;
+    text-align: left;
+}
+
+th.manage-column.column-wpsd_donated_amount {
+    text-align: center;
+}
+
+div#wpsd-preview-image,
+div#wpsd-form-banner-preview-image {
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
+    background: #EAEAEA;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+div#wpsd-form-banner-preview-image {
+    height: 200px;
+    width: auto;
+}
+
+img#wpsd-preview-image,
+img#wpsd-form-banner-preview-image {
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
+    background: #EAEAEA;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+img#wpsd-form-banner-preview-image {
+    height: 200px;
+    width: auto;
+}
+
+div#wpsd-preview-image>img#wpsd-preview-image,
+div#wpsd-form-banner-preview-image>img#wpsd-form-banner-preview-image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+div#wpsd-form-banner-preview-image>img#wpsd-form-banner-preview-image {
+    height: 200px;
+    width: auto;
+}
+
+table#wpc_data_table {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.column-wpsd_donated_amount,
+table#wpc_data_table>tbody>tr>td.wpsd-donated-amount {
+    width: 155px;
+    text-align: right;
+}
+
+a.reqDel:hover {
+    color: red;
+}
+
+#wpsd_shortcode {
+    padding: 10px;
+    text-align: center;
+    border: 2px dotted #FF0000;
+    background: #FFAA2B;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 350px;
+}
+
+
+/* template selector section */
+
+.wpsd-template-selector {
+    border: 0px solid #000;
+    max-width: 720px;
+}
+
+.wpsd-template-item {
+    border: 0px solid #000;
+    min-height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.wpsd-template-item input[type='radio'] {
+    vertical-align: top;
+}
+
+.wpsd-template-selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wpsd-template-item label {
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    border: 0px solid #6ABD6E;
+}
+
+.wpsd-template-item label.wpsd-template-0 {
+    background-color: #000;
+}
+
+.wpsd-template-item label.wpsd-template-1 {
+    background-color: #FF76B7;
+}
+
+.wpsd-template-item label.wpsd-template-2 {
+    background-color: #099795;
+}
+
+.wpsd-template-item label.wpsd-template-3 {
+    background-color: #2B98FE;
+}
+
+.wpsd-template-item label.wpsd-template-4 {
+    background-color: #E4BF8E;
+}
+
+
+/* Alert Bar Started */
+
+.wpsd-alert {
+    padding: 20px !important;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.wpsd-alert.success {
+    background-color: #6ABD6E;
+}
+
+.wpsd-alert.error {
+    background-color: #F66358;
+}
+
+.wpsd-alert.warning {
+    background-color: #FFAA2B;
+}
+
+.wpsd-alert.info {
+    background-color: #47A8F5;
+}
+
+.wpsd-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wpsd-closebtn:hover {
+    color: black;
+}
+
+
+/* Alert Bar Ended */
+
+
+/* Common Admin Styles Started */
+
+.wpsd-wrap {
+    width: 100%;
+}
+
+.wpsd_personal_wrap.wpsd_personal_help {
+    background: #fff;
+    margin: 0 20px 20px 0;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.wpsd_personal_wrap h1 {
+    font-size: 30px !important;
+    text-align: center;
+    border: none;
+    padding: 15px 10px !important;
+    background: #6029F6;
+    color: #fff;
+    margin: 15px !important;
+    line-height: 1;
+    /*margin: 12px 12px 20px 0 !important;*/
+    border-radius: 3px;
+}
+
+.wpsd_personal_wrap .help-link {
+    padding: 16px;
+}
+
+.wpsd-hlp-btn {
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 12px 16px;
+}
+
+.wpsd-hlp-btn:hover {
+    color: #f1f1f1;
+}
+
+.wpsd-btn-1 {
+    background-color: #49B158;
+}
+
+.wpsd-btn-2 {
+    background-color: #A62F66;
+}
+
+.wpsd-btn-3 {
+    background-color: #F25757;
+}
+
+.wpsd-btn-4 {
+    background-color: #FC368C;
+}
+
+.wpsd_personal_wrap .hire-ad {
+    padding: 10px 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffe0;
+    border: 1px solid #E6DB55;
+    margin: 30px auto;
+    width: 60%;
+}
+
+.wpsd-admin-sidebar .postbox {
+    text-align: center;
+}
+
+.wpsd-admin-sidebar .postbox h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+
+/* Common Admin Styles Ended */
+
+
+/* Nav Tab */
+
+.settings-banner h2 {
+    color: #5E24DD;
+    font-size: 28px;
+}
+
+.nav-tab-wrapper {
+    border-bottom: 0px solid #5E24DD;
+}
+
+.nav-tab {
+    border: 0px;
+    border-top: 2px solid #5E24DD;
+    border: 1px solid #e5e5e5;
+    background-color: #FFF;
+    color: #5E24DD;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-bottom: 0;
+    margin-left: 0;
+}
+
+.nav-tab:hover {
+    background-color: #5E24DD;
+    color: #FFF;
+    border-bottom: 0px;
+}
+
+.nav-tab-active {
+    background-color: #5E24DD;
+    color: #FFF;
+}
+
+.button.wpsd-button,
+.button.wpsd-button:active {
+    background: #5E24DD;
+    color: #FFF;
+    border: 0px solid #5E24DD;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button.wpsd-button:hover {
+    border: 1px solid #5E24DD;
+    background: #FFF;
+    color: #5E24DD;
+}

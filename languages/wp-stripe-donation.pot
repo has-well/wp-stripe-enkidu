@@ -1,0 +1,492 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-04-17 21:46+0600\n"
+"PO-Revision-Date: 2021-07-11 01:00+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../admin\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cls-wpsd-admin.php:30 cls-wpsd-admin.php:31
+msgid "WP Stripe Donation"
+msgstr ""
+
+#: cls-wpsd-admin.php:41 cls-wpsd-admin.php:42
+msgid "Key Settings"
+msgstr ""
+
+#: cls-wpsd-admin.php:50 cls-wpsd-admin.php:51 view/general.php:16
+msgid "General Settings"
+msgstr ""
+
+#: cls-wpsd-admin.php:59 cls-wpsd-admin.php:60 view/form.php:9
+msgid "Form Settings"
+msgstr ""
+
+#: cls-wpsd-admin.php:68 cls-wpsd-admin.php:69
+msgid "Donation List"
+msgstr ""
+
+#: cls-wpsd-admin.php:77 cls-wpsd-admin.php:78
+msgid "Receipt Email"
+msgstr ""
+
+#: cls-wpsd-admin.php:86 cls-wpsd-admin.php:87
+msgid "Usage & Tutorial"
+msgstr ""
+
+#: cls-wpsd-admin.php:209 cls-wpsd-admin.php:228 cls-wpsd-admin.php:241
+msgid "Amount"
+msgstr ""
+
+#: cls-wpsd-admin.php:210 cls-wpsd-admin.php:229 cls-wpsd-admin.php:242
+msgid "Donation For"
+msgstr ""
+
+#: cls-wpsd-admin.php:211 cls-wpsd-admin.php:230 cls-wpsd-admin.php:243
+msgid "Name"
+msgstr ""
+
+#: cls-wpsd-admin.php:212 cls-wpsd-admin.php:231 cls-wpsd-admin.php:244
+msgid "Email"
+msgstr ""
+
+#: cls-wpsd-admin.php:213 cls-wpsd-admin.php:232 cls-wpsd-admin.php:245
+msgid "Date"
+msgstr ""
+
+#: cls-wpsd-admin.php:227 cls-wpsd-admin.php:240
+msgid "Select All"
+msgstr ""
+
+#: cls-wpsd-admin.php:233 cls-wpsd-admin.php:246
+msgid "Comments"
+msgstr ""
+
+#: cls-wpsd-admin.php:234 cls-wpsd-admin.php:252
+msgid "Action"
+msgstr ""
+
+#: cls-wpsd-admin.php:247
+msgid "Address"
+msgstr ""
+
+#: cls-wpsd-admin.php:248
+msgid "City"
+msgstr ""
+
+#: cls-wpsd-admin.php:249
+msgid "State"
+msgstr ""
+
+#: cls-wpsd-admin.php:250
+msgid "Postcode"
+msgstr ""
+
+#: cls-wpsd-admin.php:251
+msgid "Country"
+msgstr ""
+
+#: cls-wpsd-admin.php:328 cls-wpsd-admin.php:333
+msgid "\n"
+msgstr ""
+
+#: view/form.php:21
+msgid "Content"
+msgstr ""
+
+#: view/form.php:22
+msgid "Styles"
+msgstr ""
+
+#: view/general.php:34
+msgid "Donation Admin Email"
+msgstr ""
+
+#: view/general.php:40
+msgid "Donation notification will send to this email"
+msgstr ""
+
+#: view/general.php:45
+msgid "Disable Admin Email"
+msgstr ""
+
+#: view/general.php:51 view/partial/form-content.php:74
+#: view/receipt-email.php:71 view/receipt-email.php:92
+#: view/receipt-email.php:113 view/receipt-email.php:135
+msgid "Please Upgrade Now!"
+msgstr ""
+
+#: view/general.php:66
+msgid "Form Title"
+msgstr ""
+
+#: view/general.php:75
+msgid "Form Description"
+msgstr ""
+
+#: view/general.php:84
+msgid "Donation For Options"
+msgstr ""
+
+#: view/general.php:90
+msgid "Use comma \",\" separated values like: Option-1, Option-2"
+msgstr ""
+
+#: view/general.php:95
+msgid "Amounts"
+msgstr ""
+
+#: view/general.php:101
+msgid "Use comma \",\" separated values like: 100,150,200"
+msgstr ""
+
+#: view/general.php:106
+msgid "Form Button Text"
+msgstr ""
+
+#: view/general.php:115
+msgid "Currency"
+msgstr ""
+
+#: view/general.php:134
+msgid "Success Page"
+msgstr ""
+
+#: view/general.php:140 view/general.php:174 view/partial/form-content.php:120
+#: view/partial/form-content.php:138 view/partial/form-content.php:159
+#: view/partial/form-content.php:180 view/partial/form-content.php:201
+#: view/partial/form-content.php:222 view/partial/form-content.php:243
+#: view/partial/form-content.php:264 view/partial/form-content.php:282
+#: view/partial/form-content.php:303 view/partial/form-content.php:321
+#: view/partial/form-content.php:369 view/partial/form-content.php:393
+#: view/partial/form-content.php:417 view/partial/form-content.php:441
+#: view/partial/form-styles.php:32 view/partial/form-styles.php:53
+#: view/partial/form-styles.php:74 view/partial/form-styles.php:95
+#: view/partial/form-styles.php:123 view/partial/form-styles.php:144
+#: view/partial/form-styles.php:170 view/partial/form-styles.php:191
+#: view/partial/form-styles.php:212 view/partial/form-styles.php:233
+#: view/partial/form-styles.php:261 view/partial/form-styles.php:282
+#: view/partial/form-styles.php:303 view/partial/form-styles.php:329
+#: view/partial/form-styles.php:350
+msgid "Upgrade to Professional!"
+msgstr ""
+
+#: view/general.php:149
+msgid "Enter the slug of your page where it will be redirected after successful payment."
+msgstr ""
+
+#: view/general.php:157
+msgid "Exclude Stripe SDK"
+msgstr ""
+
+#: view/general.php:163
+msgid "Check this if you have other stripe plugins activated. This will avoid conflict."
+msgstr ""
+
+#: view/general.php:168
+msgid "Disable Idempotency Key Checking"
+msgstr ""
+
+#: view/partial/form-content.php:18
+msgid "Template Color"
+msgstr ""
+
+#: view/partial/form-content.php:34
+msgid "Display Banner"
+msgstr ""
+
+#: view/partial/form-content.php:40
+msgid "Banner"
+msgstr ""
+
+#: view/partial/form-content.php:58
+msgid "Hide All Form Label"
+msgstr ""
+
+#: view/partial/form-content.php:66
+msgid "Hide Donation For"
+msgstr ""
+
+#: view/partial/form-content.php:68
+msgid "If you hide this, please make sure you must have only one donation for available in general settings."
+msgstr ""
+
+#: view/partial/form-content.php:87
+msgid "Donate/Payment For Label"
+msgstr ""
+
+#: view/partial/form-content.php:96
+msgid "Name Label"
+msgstr ""
+
+#: view/partial/form-content.php:105
+msgid "Email Label"
+msgstr ""
+
+#: view/partial/form-content.php:114
+msgid "Display Address"
+msgstr ""
+
+#: view/partial/form-content.php:132
+msgid "Address Street Label"
+msgstr ""
+
+#: view/partial/form-content.php:153
+msgid "Address Line-2 Label"
+msgstr ""
+
+#: view/partial/form-content.php:174
+msgid "Address City Label"
+msgstr ""
+
+#: view/partial/form-content.php:195
+msgid "Address State Label"
+msgstr ""
+
+#: view/partial/form-content.php:216
+msgid "Postal Code Label"
+msgstr ""
+
+#: view/partial/form-content.php:237
+msgid "Country Label"
+msgstr ""
+
+#: view/partial/form-content.php:258
+msgid "Show Comments"
+msgstr ""
+
+#: view/partial/form-content.php:276
+msgid "Comments Label"
+msgstr ""
+
+#: view/partial/form-content.php:297
+msgid "Show Captcha"
+msgstr ""
+
+#: view/partial/form-content.php:315
+msgid "Captcha Label"
+msgstr ""
+
+#: view/partial/form-content.php:336
+msgid "Amount Label"
+msgstr ""
+
+#: view/partial/form-content.php:345
+msgid "Other Amount Text"
+msgstr ""
+
+#: view/partial/form-content.php:354
+msgid "Card Element Label"
+msgstr ""
+
+#: view/partial/form-content.php:363
+msgid "Form Width"
+msgstr ""
+
+#: view/partial/form-content.php:387
+msgid "Form Header Type"
+msgstr ""
+
+#: view/partial/form-content.php:400
+msgid "tdb"
+msgstr ""
+
+#: view/partial/form-content.php:400
+msgid "Title-Description-Banner"
+msgstr ""
+
+#: view/partial/form-content.php:401
+msgid "btd"
+msgstr ""
+
+#: view/partial/form-content.php:401
+msgid "Banner-Title-Description"
+msgstr ""
+
+#: view/partial/form-content.php:402
+msgid "tbd"
+msgstr ""
+
+#: view/partial/form-content.php:402
+msgid "Title-Banner-Description"
+msgstr ""
+
+#: view/partial/form-content.php:411
+msgid "Form Button Width"
+msgstr ""
+
+#: view/partial/form-content.php:435
+msgid "Display Total Donation Today"
+msgstr ""
+
+#: view/partial/form-content.php:455 view/partial/form-styles.php:364
+#: view/receipt-email.php:151 view/wpsd-key-settings.php:55
+msgid "Save Settings"
+msgstr ""
+
+#: view/partial/form-styles.php:21
+msgid "Form Container"
+msgstr ""
+
+#: view/partial/form-styles.php:26 view/partial/form-styles.php:164
+msgid "Border Width"
+msgstr ""
+
+#: view/partial/form-styles.php:39 view/partial/form-styles.php:81
+#: view/partial/form-styles.php:109 view/partial/form-styles.php:177
+#: view/partial/form-styles.php:219 view/partial/form-styles.php:247
+#: view/partial/form-styles.php:310
+msgid "px"
+msgstr ""
+
+#: view/partial/form-styles.php:47 view/partial/form-styles.php:185
+msgid "Border Color"
+msgstr ""
+
+#: view/partial/form-styles.php:68 view/partial/form-styles.php:206
+msgid "Border Radius"
+msgstr ""
+
+#: view/partial/form-styles.php:89 view/partial/form-styles.php:227
+msgid "Padding"
+msgstr ""
+
+#: view/partial/form-styles.php:102 view/partial/form-styles.php:240
+msgid "top"
+msgstr ""
+
+#: view/partial/form-styles.php:104 view/partial/form-styles.php:242
+msgid "right"
+msgstr ""
+
+#: view/partial/form-styles.php:106 view/partial/form-styles.php:244
+msgid "bottom"
+msgstr ""
+
+#: view/partial/form-styles.php:108 view/partial/form-styles.php:246
+msgid "left"
+msgstr ""
+
+#: view/partial/form-styles.php:117 view/partial/form-styles.php:255
+#: view/partial/form-styles.php:323
+msgid "Background Color"
+msgstr ""
+
+#: view/partial/form-styles.php:138 view/partial/form-styles.php:276
+#: view/partial/form-styles.php:344
+msgid "Font Color"
+msgstr ""
+
+#: view/partial/form-styles.php:159
+msgid "Input Fields"
+msgstr ""
+
+#: view/partial/form-styles.php:297
+msgid "Font Size"
+msgstr ""
+
+#: view/partial/form-styles.php:318
+msgid "Button"
+msgstr ""
+
+#: view/receipt-email.php:18
+msgid "Receipt Email Settings"
+msgstr ""
+
+#: view/receipt-email.php:35
+msgid "Subject"
+msgstr ""
+
+#: view/receipt-email.php:40
+msgid "We received your payment"
+msgstr ""
+
+#: view/receipt-email.php:45
+msgid "Heading"
+msgstr ""
+
+#: view/receipt-email.php:50
+msgid "Thanks for your payment!"
+msgstr ""
+
+#: view/receipt-email.php:55
+msgid "Footnote"
+msgstr ""
+
+#: view/receipt-email.php:60
+msgid "If you have any question, please reply this email."
+msgstr ""
+
+#: view/receipt-email.php:65
+msgid "Disable Plugin Receipt Email"
+msgstr ""
+
+#: view/receipt-email.php:86
+msgid "Disable Stripe Receipt Email"
+msgstr ""
+
+#: view/receipt-email.php:107
+msgid "From Name"
+msgstr ""
+
+#: view/receipt-email.php:121
+msgid "Receipt Email Header From Name"
+msgstr ""
+
+#: view/receipt-email.php:129
+msgid "From Email"
+msgstr ""
+
+#: view/receipt-email.php:143
+msgid "webmaster@yourdomain.com"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:26 view/wpsd-all-donations.php:9
+msgid "Donations Information"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:42
+msgid "BULK ACTION"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:43
+msgid "Delete"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:45
+msgid "Apply"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:80
+msgid "DELETE"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:101
+msgid "EXPORT TO CSV"
+msgstr ""
+
+#: view/wpsd-key-settings.php:20
+msgid "Stripe Key Settings"
+msgstr ""
+
+#: view/wpsd-key-settings.php:35
+msgid "Publishable Key"
+msgstr ""
+
+#: view/wpsd-key-settings.php:45
+msgid "Secret Key"
+msgstr ""
+
+#: view/wpsd-key-settings.php:58
+msgid "Where to Find Stripe Keys"
+msgstr ""

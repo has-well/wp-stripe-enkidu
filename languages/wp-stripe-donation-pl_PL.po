@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Stripe Donation\n"
+"POT-Creation-Date: 2022-02-17 03:22+0600\n"
+"PO-Revision-Date: 2022-02-17 21:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../admin\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: cls-wpsd-admin.php:30 cls-wpsd-admin.php:31
+msgid "WP Stripe Donation"
+msgstr "Darowizna WP Stripe"
+
+#: cls-wpsd-admin.php:41 cls-wpsd-admin.php:42
+msgid "Key Settings"
+msgstr "Podstawowe ustawienia"
+
+#: cls-wpsd-admin.php:50 cls-wpsd-admin.php:51 view/general.php:16
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: cls-wpsd-admin.php:59 cls-wpsd-admin.php:60 view/form.php:9
+msgid "Form Settings"
+msgstr "Ustawienia formularza"
+
+#: cls-wpsd-admin.php:68 cls-wpsd-admin.php:69
+msgid "Donation List"
+msgstr "Lista ofiar"
+
+#: cls-wpsd-admin.php:77 cls-wpsd-admin.php:78
+msgid "Receipt Email"
+msgstr "Wiadomość e-mail z potwierdzeniem"
+
+#: cls-wpsd-admin.php:86 cls-wpsd-admin.php:87
+msgid "Usage & Tutorial"
+msgstr "Wykorzystanie i Poradnik"
+
+#: cls-wpsd-admin.php:209 cls-wpsd-admin.php:227
+msgid "Amount"
+msgstr "Kwota"
+
+#: cls-wpsd-admin.php:210 cls-wpsd-admin.php:228
+msgid "Donation For"
+msgstr "Darowizna na"
+
+#: cls-wpsd-admin.php:211 cls-wpsd-admin.php:229
+msgid "Name"
+msgstr "Nazwa"
+
+#: cls-wpsd-admin.php:212 cls-wpsd-admin.php:230
+msgid "Email"
+msgstr "E-mail"
+
+#: cls-wpsd-admin.php:213 cls-wpsd-admin.php:231
+msgid "Date"
+msgstr "Data"
+
+#: cls-wpsd-admin.php:226
+msgid "Select All"
+msgstr "Wybierz Wszystkie"
+
+#: cls-wpsd-admin.php:232
+msgid "Comments"
+msgstr "Komentarze"
+
+#: cls-wpsd-admin.php:233
+msgid "Action"
+msgstr "Działania"
+
+#: cls-wpsd-admin.php:304 cls-wpsd-admin.php:309
+msgid ""
+"\n"
+msgstr ""
+"\n"
+
+#: view/form.php:21
+msgid "Content"
+msgstr "Spis treści"
+
+#: view/form.php:22
+msgid "Styles"
+msgstr "Style"
+
+#: view/general.php:34
+msgid "Donation Admin Email"
+msgstr "Donation Admin Email"
+
+#: view/general.php:40
+msgid "Donation notification will send to this email"
+msgstr "Zawiadomienie o darowizny zostanie wysłana na ten adres e-mail"
+
+#: view/general.php:45
+msgid "Disable Admin Email"
+msgstr "Wyłączyć pocztę e-mail administratora"
+
+#: view/general.php:51 view/partial/form-content.php:210
+#: view/receipt-email.php:71 view/receipt-email.php:92
+#: view/receipt-email.php:114
+msgid "Please Upgrade Now!"
+msgstr "Należy zaktualizować urządzenie już teraz!"
+
+#: view/general.php:66
+msgid "Form Title"
+msgstr "Nazwa formularza"
+
+#: view/general.php:75
+msgid "Form Description"
+msgstr "Opis formy"
+
+#: view/general.php:84
+msgid "Donation For Options"
+msgstr "Darowizna na binarne"
+
+#: view/general.php:90
+msgid "Use comma \",\" separated values like: Option-1, Option-2"
+msgstr ""
+"Użyj oddzielone przecinkiem \",\" wartości, takie jak: Opcja 1, Opcja 2"
+
+#: view/general.php:95
+msgid "Amounts"
+msgstr "Kwoty"
+
+#: view/general.php:101
+msgid "Use comma \",\" separated values like: 100,150,200"
+msgstr "Użyj oddzielone przecinkiem \",\" wartości, takie jak: 100,150,200"
+
+#: view/general.php:106
+msgid "Form Button Text"
+msgstr "Tekst przycisku formularza"
+
+#: view/general.php:115
+msgid "Currency"
+msgstr "Waluta"
+
+#: view/general.php:134
+msgid "Success Page"
+msgstr "Strona Sukcesu"
+
+#: view/general.php:140 view/general.php:174 view/partial/form-content.php:111
+#: view/partial/form-content.php:132 view/partial/form-content.php:153
+#: view/partial/form-content.php:173 view/partial/form-content.php:232
+#: view/partial/form-content.php:256 view/partial/form-content.php:280
+#: view/partial/form-content.php:304 view/partial/form-styles.php:32
+#: view/partial/form-styles.php:53 view/partial/form-styles.php:74
+#: view/partial/form-styles.php:95 view/partial/form-styles.php:123
+#: view/partial/form-styles.php:144 view/partial/form-styles.php:170
+#: view/partial/form-styles.php:191 view/partial/form-styles.php:212
+#: view/partial/form-styles.php:233 view/partial/form-styles.php:261
+#: view/partial/form-styles.php:282 view/partial/form-styles.php:303
+#: view/partial/form-styles.php:329 view/partial/form-styles.php:350
+msgid "Upgrade to Professional!"
+msgstr "Przejdź na profesjonalny poziom!"
+
+#: view/general.php:149
+msgid ""
+"Enter the slug of your page where it will be redirected after successful "
+"payment."
+msgstr ""
+"Wprowadź slug na swojej stronie, gdzie zostanie przekierowany po dokonaniu "
+"płatności."
+
+#: view/general.php:157
+msgid "Exclude Stripe SDK"
+msgstr "Wykluczyć Stripe SDK"
+
+#: view/general.php:163
+msgid ""
+"Check this if you have other stripe plugins activated. This will avoid "
+"conflict."
+msgstr ""
+"Sprawdź to, jeśli masz uruchomione inne wtyczki stripe. Pozwoli to uniknąć "
+"konfliktu."
+
+#: view/general.php:168
+msgid "Disable Idempotency Key Checking"
+msgstr "Wyłączyć sprawdzanie klucza идемпотентности"
+
+#: view/partial/form-content.php:18
+msgid "Template Color"
+msgstr "Kolor szablonu"
+
+#: view/partial/form-content.php:34
+msgid "Display Banner"
+msgstr "Pokaż Banner"
+
+#: view/partial/form-content.php:42
+msgid "Banner"
+msgstr "Sztandar"
+
+#: view/partial/form-content.php:60
+msgid "Donate/Payment For Label"
+msgstr "Darowizna/Opłata za naklejkę"
+
+#: view/partial/form-content.php:69
+msgid "Name Label"
+msgstr "Etykieta Nazwy"
+
+#: view/partial/form-content.php:78
+msgid "Email Label"
+msgstr "Znacznik e-mail"
+
+#: view/partial/form-content.php:87
+msgid "Amount Label"
+msgstr "Etykieta kwoty"
+
+#: view/partial/form-content.php:96
+msgid "Card Element Label"
+msgstr "Etykieta elementu mapy"
+
+#: view/partial/form-content.php:105
+msgid "Comments Label"
+msgstr "Komentarze Etykiety"
+
+#: view/partial/form-content.php:126
+msgid "Captcha Label"
+msgstr "Etykieta Captcha"
+
+#: view/partial/form-content.php:147
+msgid "Show Comments Field"
+msgstr "Pokaż polu komentarzy"
+
+#: view/partial/form-content.php:167
+msgid "Show Captcha Field"
+msgstr "Pokaż pole captcha"
+
+#: view/partial/form-content.php:187
+msgid "Hide All Form Label"
+msgstr "Ukryj wszystkie znaczniki formy"
+
+#: view/partial/form-content.php:195
+msgid "Other Amount Text"
+msgstr "Inna kwota Tekst"
+
+#: view/partial/form-content.php:204
+msgid "Hide Donation For"
+msgstr "Ukryj darowizna dla"
+
+#: view/partial/form-content.php:218
+msgid ""
+"If you hide this, please make sure you must have only one donation for "
+"available in general settings."
+msgstr ""
+"Jeśli ukrywasz to, proszę, upewnij się, że powinno być tylko jedno darowizna "
+"dla dostępnych w ustawieniach ogólnych."
+
+#: view/partial/form-content.php:226
+msgid "Form Width"
+msgstr "Szerokość Formy"
+
+#: view/partial/form-content.php:250
+msgid "Form Header Type"
+msgstr "Typ nagłówka formularza"
+
+#: view/partial/form-content.php:263
+msgid "tdb"
+msgstr "тдб"
+
+#: view/partial/form-content.php:263
+msgid "Title-Description-Banner"
+msgstr "Tytuł-Opis-Banner"
+
+#: view/partial/form-content.php:264
+msgid "btd"
+msgstr "ктд"
+
+#: view/partial/form-content.php:264
+msgid "Banner-Title-Description"
+msgstr "Baner-Nazwa-Opis"
+
+#: view/partial/form-content.php:265
+msgid "tbd"
+msgstr "тбд"
+
+#: view/partial/form-content.php:265
+msgid "Title-Banner-Description"
+msgstr "Header-Banner-Opis"
+
+#: view/partial/form-content.php:274
+msgid "Form Button Width"
+msgstr "Szerokość przycisku formularza"
+
+#: view/partial/form-content.php:298
+msgid "Display Total Donation Today"
+msgstr "Pokaż całkowita darowizna dziś"
+
+#: view/partial/form-content.php:318 view/partial/form-styles.php:364
+#: view/receipt-email.php:130 view/wpsd-key-settings.php:55
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: view/partial/form-styles.php:21
+msgid "Form Container"
+msgstr "Pojemnik formy"
+
+#: view/partial/form-styles.php:26 view/partial/form-styles.php:164
+msgid "Border Width"
+msgstr "Szerokość obramowania"
+
+#: view/partial/form-styles.php:39 view/partial/form-styles.php:81
+#: view/partial/form-styles.php:109 view/partial/form-styles.php:177
+#: view/partial/form-styles.php:219 view/partial/form-styles.php:247
+#: view/partial/form-styles.php:310
+msgid "px"
+msgstr "px"
+
+#: view/partial/form-styles.php:47 view/partial/form-styles.php:185
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+#: view/partial/form-styles.php:68 view/partial/form-styles.php:206
+msgid "Border Radius"
+msgstr "Promień granicy"
+
+#: view/partial/form-styles.php:89 view/partial/form-styles.php:227
+msgid "Padding"
+msgstr "Tapicerka"
+
+#: view/partial/form-styles.php:102 view/partial/form-styles.php:240
+msgid "top"
+msgstr "Na górę"
+
+#: view/partial/form-styles.php:104 view/partial/form-styles.php:242
+msgid "right"
+msgstr "poprawnie"
+
+#: view/partial/form-styles.php:106 view/partial/form-styles.php:244
+msgid "bottom"
+msgstr "dno"
+
+#: view/partial/form-styles.php:108 view/partial/form-styles.php:246
+msgid "left"
+msgstr "po lewej stronie"
+
+#: view/partial/form-styles.php:117 view/partial/form-styles.php:255
+#: view/partial/form-styles.php:323
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: view/partial/form-styles.php:138 view/partial/form-styles.php:276
+#: view/partial/form-styles.php:344
+msgid "Font Color"
+msgstr "Kolor czcionki"
+
+#: view/partial/form-styles.php:159
+msgid "Input Fields"
+msgstr "Pola Wprowadzania"
+
+#: view/partial/form-styles.php:297
+msgid "Font Size"
+msgstr "Rozmiar czcionki"
+
+#: view/partial/form-styles.php:318
+msgid "Button"
+msgstr "Przycisk"
+
+#: view/receipt-email.php:18
+msgid "Receipt Email Settings"
+msgstr "Ustawienia poczty e-mail wpływy"
+
+#: view/receipt-email.php:35
+msgid "Subject"
+msgstr "Temat"
+
+#: view/receipt-email.php:40
+msgid "We received your payment"
+msgstr "Otrzymaliśmy płatność"
+
+#: view/receipt-email.php:45
+msgid "Heading"
+msgstr "Tytuł"
+
+#: view/receipt-email.php:50
+msgid "Thanks for your payment!"
+msgstr "Dziękuję za twoją zapłatę!"
+
+#: view/receipt-email.php:55
+msgid "Footnote"
+msgstr "Przypis"
+
+#: view/receipt-email.php:60
+msgid "If you have any question, please reply this email."
+msgstr "Jeśli masz jakieś pytania, proszę o odpowiedź na ten list."
+
+#: view/receipt-email.php:65
+msgid "Disable Receipt Email"
+msgstr "Wyłączyć e-mail, rachunki"
+
+#: view/receipt-email.php:86
+msgid "From Name"
+msgstr "W imieniu"
+
+#: view/receipt-email.php:100
+msgid "Receipt Email Header From Name"
+msgstr "Nagłówek wiadomości e-mail wpływy w imieniu"
+
+#: view/receipt-email.php:108
+msgid "From Email"
+msgstr "Z poczty e-mail"
+
+#: view/receipt-email.php:122
+msgid "webmaster@yourdomain.com"
+msgstr ""
+
+#: view/wpsd-all-donations-pro.php:28 view/wpsd-all-donations.php:9
+msgid "Donations Information"
+msgstr "Informacje na temat datków"
+
+#: view/wpsd-all-donations-pro.php:44
+msgid "BULK ACTION"
+msgstr "DZIAŁANIE MASOWE"
+
+#: view/wpsd-all-donations-pro.php:45
+msgid "Delete"
+msgstr "Usunąć"
+
+#: view/wpsd-all-donations-pro.php:47
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: view/wpsd-all-donations-pro.php:70
+msgid "DELETE"
+msgstr "Usunąć"
+
+#: view/wpsd-all-donations-pro.php:91
+msgid "EXPORT TO CSV"
+msgstr "EKSPORT DO PLIKU CSV"
+
+#: view/wpsd-key-settings.php:20
+msgid "Stripe Key Settings"
+msgstr "Ustawienia klucza Stripe"
+
+#: view/wpsd-key-settings.php:35
+msgid "Publishable Key"
+msgstr "Opublikowane Klucz"
+
+#: view/wpsd-key-settings.php:45
+msgid "Secret Key"
+msgstr "Tajny klucz"
+
+#: view/wpsd-key-settings.php:58
+msgid "Where to Find Stripe Keys"
+msgstr "Gdzie znaleźć Stripe Keys"
