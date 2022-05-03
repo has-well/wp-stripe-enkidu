@@ -191,7 +191,7 @@ $wpsdCaptchaItem2 = rand(1, 20);
             }
 
             ?>
-            <input type="text" name="wpsd_donator_name" id="wpsd_donator_name" class="wpsd-text-field" placeholder="<?php
+            <input type="text" name="wpsd_donator_name" id="wpsd_donator_name" class="wpsd-text-field" autocomplete="on" placeholder="<?php
                                                                                                                     esc_attr_e($wpsd_donator_name_label);
                                                                                                                     ?>">
 
@@ -207,7 +207,7 @@ $wpsdCaptchaItem2 = rand(1, 20);
             }
 
             ?>
-            <input type="email" name="wpsd_donator_email" id="wpsd_donator_email" class="wpsd-text-field" placeholder="<?php
+            <input type="email" name="wpsd_donator_email" id="wpsd_donator_email" class="wpsd-text-field" autocomplete="on" placeholder="<?php
                                                                                                                         esc_attr_e($wpsd_donator_email_label);
                                                                                                                         ?>">
 
