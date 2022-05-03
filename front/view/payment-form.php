@@ -132,7 +132,7 @@ $wpsdCaptchaItem2 = rand(1, 20);
                 ?>
                 <li class="wpsd_donate_amount_other_li">
                     <div class="form-group">
-                        <input id="wpsd_donate_other_amount" type="text" value="100" class="wpsd_donate_other_amount" name="wpsd_donate_other_amount" placeholder="<?php
+                        <input id="wpsd_donate_other_amount" type="text" value="" class="wpsd_donate_other_amount" name="wpsd_donate_other_amount" placeholder="<?php
                                                                                                                                                         _e('Amount', WPSD_TXT_DOMAIN);
                                                                                                                                                         ?>"> <?php
         esc_html_e($wpsd_donate_currency);
@@ -155,22 +155,9 @@ $wpsdCaptchaItem2 = rand(1, 20);
                 }
 
                 ?>
-                <select name="wpsd_donation_for" id="wpsd_donation_for" class="wpsd-text-field">
-                    <?php
-                    $wpsd_donation_options = ($wpsd_donation_options != '' ? explode(',', $wpsd_donation_options) : []);
-                    if (count($wpsd_donation_options) > 0) {
-                        foreach ($wpsd_donation_options as $item) {
-                    ?>
-                            <option value="<?php
-                                            esc_attr_e(trim($item));
-                                            ?>"><?php
-                            esc_html_e(trim($item));
-                ?></option>
-                    <?php
-                        }
-                    }
-                    ?>
-                </select>
+                <input type="hidden" name="wpsd_donation_for" id="wpsd_donation_for" class="wpsd-text-field" value="<?php
+                esc_attr_e(the_title());
+                ?>">
             <?php
             } else {
             ?>
